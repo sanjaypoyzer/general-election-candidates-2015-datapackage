@@ -1,0 +1,80 @@
+{
+  "title": "General Election Candidates 2015",
+  "name": "general-election-candidates-2015",
+  "resources": [
+    {
+      "name": "candidates.csv",
+      "path": "candidates.csv",
+      "mediatype": "text/csv",
+      "bytes": 554413,
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "type": "integer"
+          },
+          {
+            "name": "party",
+            "type": "string"
+          },
+          {
+            "name": "constituency",
+            "type": "string"
+          },
+          {
+            "name": "mapit_id",
+            "type": "integer"
+          },
+          {
+            "name": "mapit_url",
+            "type": "string"
+          },
+          {
+            "name": "gss_code",
+            "type": "number"
+          },
+          {
+            "name": "twitter_username",
+            "type": "string"
+          },
+          {
+            "name": "facebook_page_url",
+            "type": "number"
+          },
+          {
+            "name": "party_ppc_page_url",
+            "type": "number"
+          },
+          {
+            "name": "gender",
+            "type": "string"
+          },
+          {
+            "name": "facebook_personal_url",
+            "type": "number"
+          },
+          {
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "name": "homepage_url",
+            "type": "number"
+          },
+          {
+            "name": "wikipedia_url",
+            "type": "number"
+          },
+          {
+            "name": "birth_date",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
