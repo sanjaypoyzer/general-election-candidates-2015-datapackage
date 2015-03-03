@@ -6,7 +6,7 @@
       "name": "candidates.csv",
       "path": "candidates.csv",
       "mediatype": "text/csv",
-      "bytes": 554413,
+      "bytes": 750937,
       "schema": {
         "fields": [
           {
@@ -15,7 +15,9 @@
           },
           {
             "name": "id",
-            "type": "integer"
+            "type": "integer",
+            "required": true,
+            "unique": true
           },
           {
             "name": "party",
@@ -35,7 +37,7 @@
           },
           {
             "name": "gss_code",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "twitter_username",
@@ -43,11 +45,11 @@
           },
           {
             "name": "facebook_page_url",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "party_ppc_page_url",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "gender",
@@ -55,7 +57,7 @@
           },
           {
             "name": "facebook_personal_url",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "email",
@@ -63,15 +65,31 @@
           },
           {
             "name": "homepage_url",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "wikipedia_url",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "birth_date",
-            "type": "number"
+            "type": "date"
+          },
+          {
+            "name": "parlparse_id",
+            "type": "integer"
+          },
+          {
+            "name": "theyworkforyou_url",
+            "type": "string"
+          },
+          {
+            "name": "honorific_prefix",
+            "type": "string"
+          },
+          {
+            "name": "honorific_suffix",
+            "type": "string"
           }
         ]
       }
